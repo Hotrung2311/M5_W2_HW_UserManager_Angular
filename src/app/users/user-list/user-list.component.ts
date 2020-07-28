@@ -13,17 +13,17 @@ export class UserListComponent implements OnInit {
     {
       id: 1,
       name: 'nam',
-      email: 'nam@gamil.com'
+      email: 'nam@gmail.com'
     },
     {
       id: 2,
       name: 'vinh',
-      email: 'vinh@gamil.com'
+      email: 'vinh@gmail.com'
     },
     {
       id: 3,
       name: 'duc',
-      email: 'duc@gamil.com'
+      email: 'duc@gmail.com'
     }
   ]
 
