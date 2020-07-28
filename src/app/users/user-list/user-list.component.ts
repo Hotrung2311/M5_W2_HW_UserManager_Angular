@@ -45,4 +45,14 @@ export class UserListComponent implements OnInit {
     })
   }
 
+  delete(id){
+    let remain = [];
+    this.userFilter.map(user => {
+      if(user.id != id){
+        remain.push(user)
+      }
+    })
+    this.userFilter = remain;
+  }
+
 }
